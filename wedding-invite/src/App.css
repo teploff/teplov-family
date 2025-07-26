@@ -1,0 +1,114 @@
+body, .wedding-root {
+  font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
+  color: #3d2c2e;
+  margin: 0;
+  min-height: 100vh;
+}
+.wedding-root {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem 1rem 1rem;
+  box-shadow: 0 4px 32px 0 #e6d0f3cc;
+  border-radius: 24px;
+  background: #fff9faee;
+}
+.wedding-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.wedding-header h1 {
+  font-size: 2.8rem;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  margin: 0 0 0.2em 0;
+  color: #a259c6;
+  letter-spacing: 2px;
+}
+.wedding-date {
+  font-size: 1.2rem;
+  color: #7d5a7b;
+  margin-bottom: 0.5em;
+}
+.wedding-photo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.wedding-photo img {
+  width: 100%;
+  max-width: 340px;
+  border-radius: 18px;
+  box-shadow: 0 2px 16px #e6d0f3aa;
+}
+.wedding-info {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.wedding-info h2 {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: #a259c6;
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+}
+.wedding-details {
+  background: #f7e9ff;
+  border-radius: 12px;
+  padding: 1em;
+  margin-bottom: 1.5rem;
+}
+.wedding-details h3 {
+  margin-top: 0;
+  color: #7d5a7b;
+}
+.wedding-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0 0;
+}
+.wedding-details li {
+  margin-bottom: 0.3em;
+  font-size: 1.1em;
+}
+.wedding-location {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.wedding-location h3 {
+  color: #7d5a7b;
+}
+.wedding-location iframe {
+  margin-top: 0.5em;
+  border: none;
+  width: 100%;
+  border-radius: 12px;
+}
+.wedding-footer {
+  text-align: center;
+  margin-top: 2em;
+  color: #7d5a7b;
+  font-size: 1em;
+}
+.wedding-footer a {
+  color: #a259c6;
+  text-decoration: none;
+  margin: 0 0.3em;
+}
+.wedding-footer a:hover {
+  text-decoration: underline;
+}
+.wedding-love {
+  margin-top: 0.5em;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 1.2em;
+  color: #a259c6;
+}
+@media (max-width: 600px) {
+  .wedding-root {
+    padding: 1rem 0.2rem;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .wedding-photo img {
+    max-width: 100%;
+  }
+}
