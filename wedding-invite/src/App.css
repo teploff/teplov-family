@@ -1,114 +1,289 @@
-body, .wedding-root {
+body {
   font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
   background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
   color: #3d2c2e;
   margin: 0;
   min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
+
 .wedding-root {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem 1rem 1rem 1rem;
-  box-shadow: 0 4px 32px 0 #e6d0f3cc;
-  border-radius: 24px;
+  width: 100%;
+  max-width: 800px;
   background: #fff9faee;
+  border-radius: 24px;
+  box-shadow: 0 8px 40px 0 #e6d0f3cc;
+  overflow: hidden;
 }
+
 .wedding-header {
   text-align: center;
-  margin-bottom: 1.5rem;
+  padding: 3rem 2rem 2rem 2rem;
+  background: linear-gradient(135deg, #f7e9ff 0%, #fff6f6 100%);
 }
+
 .wedding-header h1 {
-  font-size: 2.8rem;
+  font-size: 3.5rem;
   font-family: 'Dancing Script', cursive, sans-serif;
-  margin: 0 0 0.2em 0;
+  margin: 0 0 0.5em 0;
   color: #a259c6;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
+
 .wedding-date {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #7d5a7b;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
+  font-weight: 500;
 }
+
 .wedding-photo {
   display: flex;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  padding: 2rem;
+  background: #fff;
 }
+
 .wedding-photo img {
   width: 100%;
-  max-width: 340px;
-  border-radius: 18px;
-  box-shadow: 0 2px 16px #e6d0f3aa;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px #e6d0f3aa;
+  transition: transform 0.3s ease;
 }
+
+.wedding-photo img:hover {
+  transform: scale(1.02);
+}
+
 .wedding-info {
   text-align: center;
-  margin-bottom: 1.5rem;
+  padding: 2rem;
+  background: #fff;
+  border-bottom: 1px solid #f0e6f7;
 }
+
 .wedding-info h2 {
   font-family: 'Dancing Script', cursive, sans-serif;
   color: #a259c6;
-  font-size: 2rem;
-  margin-bottom: 0.2em;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
+
+.wedding-info p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #4a3a4a;
+}
+
 .wedding-details {
   background: #f7e9ff;
-  border-radius: 12px;
-  padding: 1em;
-  margin-bottom: 1.5rem;
+  padding: 2rem;
+  margin: 0;
 }
+
 .wedding-details h3 {
-  margin-top: 0;
+  margin: 0 0 1.5rem 0;
   color: #7d5a7b;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
 }
+
 .wedding-details ul {
   list-style: none;
   padding: 0;
-  margin: 0.5em 0 0 0;
+  margin: 0;
+  max-width: 500px;
+  margin: 0 auto;
 }
+
 .wedding-details li {
-  margin-bottom: 0.3em;
-  font-size: 1.1em;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(162, 89, 198, 0.1);
+  border-left: 4px solid #a259c6;
+  transition: transform 0.2s ease;
 }
+
+.wedding-details li:hover {
+  transform: translateX(5px);
+}
+
+.wedding-details li:last-child {
+  margin-bottom: 0;
+}
+
 .wedding-location {
-  margin-bottom: 1.5rem;
+  padding: 2rem;
   text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #f0e6f7;
 }
+
 .wedding-location h3 {
   color: #7d5a7b;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
 }
+
+.wedding-location p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #4a3a4a;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .wedding-location iframe {
-  margin-top: 0.5em;
-  border: none;
   width: 100%;
-  border-radius: 12px;
+  max-width: 600px;
+  height: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: none;
 }
+
 .wedding-footer {
   text-align: center;
-  margin-top: 2em;
+  padding: 2rem;
+  background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
   color: #7d5a7b;
-  font-size: 1em;
+  font-size: 1.1rem;
 }
+
 .wedding-footer a {
   color: #a259c6;
   text-decoration: none;
-  margin: 0 0.3em;
+  margin: 0 0.8em;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
 }
+
 .wedding-footer a:hover {
-  text-decoration: underline;
+  background: #a259c6;
+  color: #fff;
+  text-decoration: none;
 }
+
 .wedding-love {
-  margin-top: 0.5em;
+  margin-top: 1.5rem;
   font-family: 'Dancing Script', cursive, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4rem;
   color: #a259c6;
 }
-@media (max-width: 600px) {
+
+/* Планшеты */
+@media (max-width: 1024px) {
+  body {
+    padding: 15px;
+  }
+  
   .wedding-root {
-    padding: 1rem 0.2rem;
+    max-width: 700px;
+  }
+  
+  .wedding-header h1 {
+    font-size: 3rem;
+  }
+  
+  .wedding-info h2 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Мобильные устройства */
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  
+  .wedding-root {
+    max-width: 100%;
     border-radius: 0;
     box-shadow: none;
   }
+  
+  .wedding-header {
+    padding: 2rem 1rem 1.5rem 1rem;
+  }
+  
+  .wedding-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .wedding-date {
+    font-size: 1.2rem;
+  }
+  
+  .wedding-photo {
+    padding: 1.5rem;
+  }
+  
   .wedding-photo img {
     max-width: 100%;
+  }
+  
+  .wedding-info {
+    padding: 1.5rem;
+  }
+  
+  .wedding-info h2 {
+    font-size: 2rem;
+  }
+  
+  .wedding-info p {
+    font-size: 1rem;
+  }
+  
+  .wedding-details {
+    padding: 1.5rem;
+  }
+  
+  .wedding-details h3 {
+    font-size: 1.4rem;
+  }
+  
+  .wedding-details li {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+  }
+  
+  .wedding-location {
+    padding: 1.5rem;
+  }
+  
+  .wedding-location h3 {
+    font-size: 1.4rem;
+  }
+  
+  .wedding-location p {
+    font-size: 1rem;
+  }
+  
+  .wedding-location iframe {
+    height: 250px;
+  }
+  
+  .wedding-footer {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+  
+  .wedding-love {
+    font-size: 1.2rem;
   }
 }
