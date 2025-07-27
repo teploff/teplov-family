@@ -1,7 +1,7 @@
 body {
   font-family: 'Montserrat', 'Avenir', Helvetica, Arial, sans-serif;
-  background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
-  color: #3d2c2e;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  color: #1e293b;
   margin: 0;
   min-height: 100vh;
   padding: 20px;
@@ -14,29 +14,29 @@ body {
 .wedding-root {
   width: 100%;
   max-width: 800px;
-  background: #fff9faee;
+  background: #ffffff;
   border-radius: 24px;
-  box-shadow: 0 8px 40px 0 #e6d0f3cc;
+  box-shadow: 0 8px 40px 0 #0ea5e9cc;
   overflow: hidden;
 }
 
 .wedding-header {
   text-align: center;
   padding: 3rem 2rem 2rem 2rem;
-  background: linear-gradient(135deg, #f7e9ff 0%, #fff6f6 100%);
+  background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
 }
 
 .wedding-header h1 {
   font-size: 3.5rem;
   font-family: 'Dancing Script', cursive, sans-serif;
   margin: 0 0 0.5em 0;
-  color: #a259c6;
+  color: #0891b2;
   letter-spacing: 3px;
 }
 
 .wedding-date {
   font-size: 1.4rem;
-  color: #7d5a7b;
+  color: #0e7490;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -52,7 +52,7 @@ body {
   width: 100%;
   max-width: 500px;
   border-radius: 20px;
-  box-shadow: 0 8px 30px #e6d0f3aa;
+  box-shadow: 0 8px 30px #0ea5e9aa;
   transition: transform 0.3s ease;
 }
 
@@ -64,12 +64,12 @@ body {
   text-align: center;
   padding: 2rem;
   background: #fff;
-  border-bottom: 1px solid #f0e6f7;
+  border-bottom: 1px solid #e0f2fe;
 }
 
 .wedding-info h2 {
   font-family: 'Dancing Script', cursive, sans-serif;
-  color: #a259c6;
+  color: #0891b2;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -79,18 +79,18 @@ body {
   line-height: 1.8;
   max-width: 600px;
   margin: 0 auto;
-  color: #4a3a4a;
+  color: #334155;
 }
 
 .wedding-details {
-  background: #f7e9ff;
+  background: #e0f2fe;
   padding: 2rem;
   margin: 0;
 }
 
 .wedding-details h3 {
   margin: 0 0 1.5rem 0;
-  color: #7d5a7b;
+  color: #0e7490;
   font-size: 1.6rem;
   text-align: center;
   font-weight: 600;
@@ -109,7 +109,7 @@ body {
   padding: 1rem;
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 4px 15px #e6d0f3aa;
+  box-shadow: 0 4px 15px #0ea5e9aa;
   transition: transform 0.2s ease;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .program-item .time {
-  background: #a259c6;
+  background: #0891b2;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -135,14 +135,14 @@ body {
 }
 
 .program-item .event strong {
-  color: #7d5a7b;
+  color: #0e7490;
   font-size: 1.1rem;
   display: block;
   margin-bottom: 0.3rem;
 }
 
 .program-item .location {
-  color: #a259c6;
+  color: #0891b2;
   font-size: 0.9rem;
   font-style: italic;
 }
@@ -164,25 +164,25 @@ body {
 
 /* Цитата Ричарда */
 .richard-section {
-  background: #f7e9ff;
+  background: #e0f2fe;
   padding: 2rem;
-  border-bottom: 1px solid #f0e6f7;
+  border-bottom: 1px solid #e0f2fe;
 }
 
 .richard-section h3 {
   margin: 0 0 1.5rem 0;
-  color: #7d5a7b;
+  color: #0e7490;
   font-size: 1.6rem;
   text-align: center;
   font-weight: 600;
 }
 
 .richard-quote {
-  background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
   border-radius: 20px;
   padding: 1.5rem;
-  box-shadow: 0 6px 25px #e6d0f3aa;
-  border: 2px solid #e6d0f3;
+  box-shadow: 0 6px 25px #0ea5e9aa;
+  border: 2px solid #0ea5e9;
   display: flex;
   align-items: center;
   gap: 1.5rem;
@@ -199,8 +199,8 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #a259c6;
-  box-shadow: 0 4px 15px #e6d0f3aa;
+  border: 3px solid #0891b2;
+  box-shadow: 0 4px 15px #0ea5e9aa;
 }
 
 .richard-text {
@@ -210,14 +210,14 @@ body {
 .richard-message {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #4a3a4a;
+  color: #334155;
   margin: 0 0 0.5rem 0;
   font-style: italic;
 }
 
 .richard-signature {
   font-size: 0.9rem;
-  color: #a259c6;
+  color: #0891b2;
   font-weight: 600;
   margin: 0;
   text-align: right;
@@ -225,7 +225,7 @@ body {
 
 .richard-note {
   font-size: 0.8rem;
-  color: #8b7b8b;
+  color: #64748b;
   font-style: italic;
   margin: 0.3rem 0 0 0;
   text-align: right;
@@ -233,11 +233,11 @@ body {
 }
 
 .location-card {
-  background: #f7e9ff;
+  background: #e0f2fe;
   border-radius: 16px;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 20px #e6d0f3aa;
+  box-shadow: 0 4px 20px #0ea5e9aa;
   transition: transform 0.2s ease;
 }
 
@@ -250,7 +250,7 @@ body {
 }
 
 .location-card h4 {
-  color: #a259c6;
+  color: #0891b2;
   font-size: 1.4rem;
   margin: 0 0 1rem 0;
   font-weight: 600;
@@ -261,7 +261,7 @@ body {
 }
 
 .location-address a {
-  color: #7d5a7b;
+  color: #0e7490;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.1rem;
@@ -269,11 +269,11 @@ body {
 }
 
 .location-address a:hover {
-  color: #a259c6;
+  color: #0891b2;
 }
 
 .location-description {
-  color: #6b5b6b;
+  color: #475569;
   font-size: 0.95rem;
   margin: 0.5rem 0 1rem 0;
   font-style: italic;
@@ -282,7 +282,7 @@ body {
 .location-card iframe {
   border-radius: 12px;
   margin-top: 1em;
-  box-shadow: 0 4px 15px #e6d0f3aa;
+  box-shadow: 0 4px 15px #0ea5e9aa;
 }
 
 .wedding-details ul {
@@ -347,13 +347,13 @@ body {
 .wedding-footer {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #fff6f6 0%, #f7e9ff 100%);
-  color: #7d5a7b;
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  color: #0e7490;
   font-size: 1.1rem;
 }
 
 .wedding-footer a {
-  color: #a259c6;
+  color: #0891b2;
   text-decoration: none;
   margin: 0 0.8em;
   font-weight: 600;
@@ -363,7 +363,7 @@ body {
 }
 
 .wedding-footer a:hover {
-  background: #a259c6;
+  background: #0891b2;
   color: #fff;
   text-decoration: none;
 }
@@ -372,7 +372,7 @@ body {
   margin-top: 1.5rem;
   font-family: 'Dancing Script', cursive, sans-serif;
   font-size: 1.4rem;
-  color: #a259c6;
+  color: #0891b2;
 }
 
 /* Планшеты */
