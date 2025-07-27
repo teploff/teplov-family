@@ -158,7 +158,7 @@ body {
 
 .wedding-locations h3 {
   margin: 0 0 2rem 0;
-  color: #7d5a7b;
+  color: #0e7490;
   font-size: 1.6rem;
   text-align: center;
   font-weight: 600;
@@ -166,7 +166,7 @@ body {
 
 /* Цитата Ричарда */
 .richard-section {
-  background: #e0f2fe;
+  background: #fff;
   padding: 2rem;
   border-bottom: 1px solid #e0f2fe;
 }
@@ -183,13 +183,34 @@ body {
   background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
   border-radius: 20px;
   padding: 1.5rem;
-  box-shadow: 0 6px 25px #0ea5e9aa;
-  border: 2px solid #0ea5e9;
+  box-shadow: 0 8px 30px #0ea5e9aa;
+  border: 3px solid #0891b2;
   display: flex;
   align-items: center;
   gap: 1.5rem;
   max-width: 700px;
   margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.richard-quote::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #0891b2 0%, #0ea5e9 100%);
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.richard-quote:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px #0ea5e9cc;
+  border-color: #0ea5e9;
 }
 
 .richard-photo {
@@ -197,8 +218,8 @@ body {
 }
 
 .richard-photo img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #0891b2;
@@ -549,8 +570,8 @@ body {
   }
 
   .richard-photo img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 
   .richard-message {
