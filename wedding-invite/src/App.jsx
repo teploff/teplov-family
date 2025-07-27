@@ -8,7 +8,7 @@ export default function App() {
         <p className="wedding-date">12 сентября 2025, Москва</p>
       </header>
       <section className="wedding-photo">
-        <img src="public/we.jpg" alt="Саша и Саша" />
+        <img src="/wedding-invite/we.jpg" alt="Саша и Саша" />
       </section>
       <section className="wedding-info">
         <h2>Дорогие и любимые наши!</h2>
@@ -23,7 +23,7 @@ export default function App() {
         <h3>🐕 Ремарка от вуф-организатора</h3>
         <div className="richard-quote">
           <div className="richard-photo">
-            <img src="public/richard.jpg" alt="Ричард-корги" />
+            <img src="/wedding-invite/richard.jpg" alt="Ричард-корги" />
           </div>
           <div className="richard-text">
             <p className="richard-message">
