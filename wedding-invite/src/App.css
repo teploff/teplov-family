@@ -468,20 +468,32 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 1rem;
+    gap: 0.8rem;
   }
 
   .program-item .time {
     margin-right: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
     align-self: center;
+    min-width: 60px;
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .program-item .event {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
   }
 
   .program-item .event strong {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 0;
   }
 
   .program-item .location {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    margin-top: 0;
   }
 
   .wedding-locations {
