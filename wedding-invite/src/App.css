@@ -111,6 +111,8 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 15px #0ea5e9aa;
   transition: transform 0.2s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .program-item:hover {
@@ -484,16 +486,22 @@ body {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    width: 100%;
   }
 
   .program-item .event strong {
     font-size: 1.1rem;
     margin-bottom: 0;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.3;
   }
 
   .program-item .location {
     font-size: 0.9rem;
     margin-top: 0;
+    word-wrap: break-word;
+    hyphens: auto;
   }
 
   .wedding-locations {
